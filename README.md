@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# the.dev/journal — Developer Blog
+
+A developer-focused journal for learning Data Structures and Algorithms, backend engineering, and system design through practical explanations and code-oriented examples.
+
+**Live Demo:** [blog-appbysurbhi.netlify.app](https://blog-appbysurbhi.netlify.app/)  
+**Source Code:** [github.com/surbhibadhe/blog-app](https://github.com/surbhibadhe/blog-app)
+
+## Overview
+
+the.dev/journal is a technical blog designed to make programming concepts easier to explore and understand. It brings together coding problems, backend fundamentals, and system design concepts in a clean, minimal interface.
+
+The project focuses on organizing technical learning content into accessible articles with searchable content and category-based navigation.
+
+## Features
+
+- **Technical Article Collection:** Explore articles covering DSA, backend development, and system design.
+- **Category Filtering:** Browse articles by DSA, Backend, and System Design.
+- **Article Search:** Search for relevant learning material.
+- **Structured Content:** Each article includes a title, summary, difficulty level, estimated reading time, and relevant tags.
+- **Minimal Interface:** A content-focused design built for readability and straightforward navigation.
+- **Live Deployment:** The application is publicly accessible through Netlify.
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 16 | React framework and application routing |
+| React 19 | Component-based user interface |
+| TypeScript | Type-safe development |
+| Tailwind CSS 4 | Styling and responsive layouts |
+| Netlify | Deployment and hosting |
+| Git & GitHub | Version control and source code management |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/surbhibadhe/blog-app.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd blog-app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Available Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Starts the development server |
+| `npm run build` | Builds the application for production |
+| `npm run start` | Starts the production server after building |
+| `npm run lint` | Runs ESLint |
+
+## Project Structure
+
+```text
+blog-app/
+├── app/          # Application pages and layouts
+├── lib/          # Shared utilities and logic
+├── public/       # Static assets
+├── package.json  # Dependencies and scripts
+├── next.config.ts
+├── tsconfig.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Learning Outcomes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project provides practical experience with:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Building a web application using Next.js and React.
+- Developing reusable UI components with TypeScript.
+- Organizing technical content into a navigable interface.
+- Implementing search and category-based content discovery.
+- Preparing and deploying a web application for public access.
 
-## Learn More
+## Future Improvements
 
-To learn more about Next.js, take a look at the following resources:
+- Add more technical articles and programming examples.
+- Introduce additional filtering options, such as difficulty and reading time.
+- Improve article navigation and related-content discovery.
+- Add dedicated article pages with richer code formatting and examples.
+- Explore a content management workflow for maintaining articles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application is deployed on Netlify.
 
-## Deploy on Vercel
+**Visit the live application:** [the.dev/journal](https://blog-appbysurbhi.netlify.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Surbhi Badhe**
+
+- GitHub: [@surbhibadhe](https://github.com/surbhibadhe)
+- Project Repository: [blog-app](https://github.com/surbhibadhe/blog-app)
+- Live Website: [the.dev/journal](https://blog-appbysurbhi.netlify.app/)
+
+---
+
+Built with Next.js, React, and TypeScript.
